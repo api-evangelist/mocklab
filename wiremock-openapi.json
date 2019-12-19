@@ -1,0 +1,525 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "WireMock",
+        "description": "",
+        "termsOfService": ""
+    },
+    "servers": [
+        "https\/__admin"
+    ],
+    "paths": {
+        "\/mappings": {
+            "delete": {
+                "summary": "Delete Mappings",
+                "description": "Delete all stub mappings",
+                "operationId": "DeleteMappings",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get Mappings",
+                "description": "Get all stub mappings",
+                "operationId": "GetMappings",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "The maximum number of results to return"
+                    },
+                    {
+                        "name": "offset",
+                        "in": "query",
+                        "description": "The start index of the results to return"
+                    }
+                ]
+            },
+            "post": {
+                "summary": "Post Mappings",
+                "description": "Create a new stub mapping",
+                "operationId": "PostMappings",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/mappings\/find-by-metadata": {
+            "post": {
+                "summary": "Post Mappings Find By Metadata",
+                "description": "Find stubs by matching on their metadata",
+                "operationId": "PostMappingsFindByMetadata",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/mappings\/remove-by-metadata": {
+            "post": {
+                "summary": "Post Mappings Remove By Metadata",
+                "description": "Remove stubs by matching on their metadata",
+                "operationId": "PostMappingsRemoveByMetadata",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/mappings\/reset": {
+            "post": {
+                "summary": "Post Mappings Reset",
+                "description": "Reset stub mappings (restore to defaults defined back the backing store)",
+                "operationId": "PostMappingsReset",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/mappings\/save": {
+            "post": {
+                "summary": "Post Mappings Save",
+                "description": "Save all persistent stub mappings to the backing store",
+                "operationId": "PostMappingsSave",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/mappings\/{stubMappingId}": {
+            "delete": {
+                "summary": "Delete Mappings Stubmappingid",
+                "description": "Delete mappings stubmappingid.",
+                "operationId": "DeleteMappingsStubmapping",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "stubMappingId",
+                        "in": "path",
+                        "description": "The UUID of stub mapping"
+                    }
+                ]
+            },
+            "get": {
+                "summary": "Get Mappings Stubmappingid",
+                "description": "Get mappings stubmappingid.",
+                "operationId": "GetMappingsStubmapping",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "stubMappingId",
+                        "in": "path",
+                        "description": "The UUID of stub mapping"
+                    }
+                ]
+            },
+            "put": {
+                "summary": "Put Mappings Stubmappingid",
+                "description": "Update an existing stub mapping",
+                "operationId": "PutMappingsStubmapping",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    },
+                    {
+                        "name": "stubMappingId",
+                        "in": "path",
+                        "description": "The UUID of stub mapping"
+                    }
+                ]
+            }
+        },
+        "\/near-misses\/request": {
+            "post": {
+                "summary": "Post Near Misses Request",
+                "description": "Find at most 3 near misses for closest stub mappings to the specified request",
+                "operationId": "PostNearMissesRequest",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/near-misses\/request-pattern": {
+            "post": {
+                "summary": "Post Near Misses Request Pattern",
+                "description": "Find at most 3 near misses for closest logged requests to the specified request pattern",
+                "operationId": "PostNearMissesRequestPattern",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/recordings\/snapshot": {
+            "post": {
+                "summary": "Post Recordings Snapshot",
+                "description": "Take a snapshot recording",
+                "operationId": "PostRecordingsSnapshot",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/recordings\/start": {
+            "post": {
+                "summary": "Post Recordings Start",
+                "description": "Start recording stub mappings",
+                "operationId": "PostRecordingsStart",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/recordings\/status": {
+            "get": {
+                "summary": "Get Recordings Status",
+                "description": "Get the recording status (started or stopped)",
+                "operationId": "GetRecordingsStatus",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/recordings\/stop": {
+            "post": {
+                "summary": "Post Recordings Stop",
+                "description": "Stop recording stub mappings",
+                "operationId": "PostRecordingsStop",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/requests": {
+            "delete": {
+                "summary": "Delete Requests",
+                "description": "Delete all received requests",
+                "operationId": "DeleteRequests",
+                "deprecated": 0,
+                "parameters": []
+            },
+            "get": {
+                "summary": "Get Requests",
+                "description": "Get received requests",
+                "operationId": "GetRequests",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "The maximum number of results to return"
+                    },
+                    {
+                        "name": "since",
+                        "in": "query",
+                        "description": "Only return logged requests after this date"
+                    }
+                ]
+            }
+        },
+        "\/requests\/count": {
+            "post": {
+                "summary": "Post Requests Count",
+                "description": "Count requests logged in the journal matching the specified criteria",
+                "operationId": "PostRequestsCount",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/requests\/find": {
+            "post": {
+                "summary": "Post Requests Find",
+                "description": "Retrieve details of requests logged in the journal matching the specified criteria",
+                "operationId": "PostRequestsFind",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/requests\/reset": {
+            "post": {
+                "summary": "Post Requests Reset",
+                "description": "Empty the request journal",
+                "operationId": "PostRequestsReset",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/requests\/unmatched": {
+            "get": {
+                "summary": "Get Requests Unmatched",
+                "description": "Get details of logged requests that weren't matched by any stub mapping",
+                "operationId": "GetRequestsUnmatched",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/requests\/unmatched\/near-misses": {
+            "get": {
+                "summary": "Get Requests Unmatched Near Misses",
+                "description": "Retrieve near-misses for all unmatched requests",
+                "operationId": "GetRequestsUnmatchedNearMisses",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/requests\/{requestId}": {
+            "get": {
+                "summary": "Get Requests Requestid",
+                "description": "Get requests requestid.",
+                "operationId": "GetRequestsRequest",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "requestId",
+                        "in": "path",
+                        "description": "The UUID of the logged request"
+                    }
+                ]
+            }
+        },
+        "\/scenarios": {
+            "get": {
+                "summary": "Get Scenarios",
+                "description": "Get all scenarios",
+                "operationId": "GetScenarios",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/scenarios\/reset": {
+            "post": {
+                "summary": "Post Scenarios Reset",
+                "description": "Reset the state of all scenarios",
+                "operationId": "PostScenariosReset",
+                "deprecated": 0,
+                "parameters": []
+            }
+        },
+        "\/settings": {
+            "post": {
+                "summary": "Post Settings",
+                "description": "Update global settings",
+                "operationId": "PostSettings",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "body",
+                        "in": "body",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        "\/shutdown": {
+            "post": {
+                "summary": "Post Shutdown",
+                "description": "Shutdown the WireMock server",
+                "operationId": "PostShutdown",
+                "deprecated": 0,
+                "parameters": []
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "globalSettings": {
+                "type": "object",
+                "properties": {
+                    "delayDistribution": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "fixedDelay": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "loggedRequest": {
+                "type": "object",
+                "properties": {
+                    "absoluteUrl": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "body": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "cookies": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "headers": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "method": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "requestPattern": {
+                "type": "object",
+                "properties": {
+                    "basicAuthCredentials": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "bodyPatterns": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "cookies": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "headers": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "method": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "queryParameters": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "url": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "urlPath": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "urlPathPattern": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "urlPattern": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "scenarios": {
+                "type": "object",
+                "properties": {
+                    "scenarios": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "stubMapping": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "metadata": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "newScenarioState": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "persistent": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "postServeActions": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "priority": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "request": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "requiredScenarioState": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "response": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "scenarioName": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            },
+            "stubMappings": {
+                "type": "object",
+                "properties": {
+                    "mappings": {
+                        "description": "",
+                        "type": "post"
+                    },
+                    "meta": {
+                        "description": "",
+                        "type": "post"
+                    }
+                }
+            }
+        }
+    }
+}
