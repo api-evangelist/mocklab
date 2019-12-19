@@ -1,0 +1,806 @@
+{
+    "id": "3a4f7c8e0039fc0201a4d0776be573ae",
+    "name": "WireMock",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "03a5af0b555cc127089ef6a96526fec5",
+            "name": "Delete Mappings",
+            "url": "https\/__admin\/mappings",
+            "description": "Delete all stub mappings",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "f4b2ed383a8c092187f8745232894f0a",
+            "name": "Get Mappings",
+            "url": "https\/__admin\/mappings",
+            "description": "Get all stub mappings",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "The maximum number of results to return",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "offset",
+                    "description": "The start index of the results to return",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "bd9a45057924be36e85b0897997cac24",
+            "name": "Post Mappings",
+            "url": "https\/__admin\/mappings",
+            "description": "Create a new stub mapping",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "d6f8189e56358d9859c8f140932a5549",
+            "name": "Post Mappings Find By Metadata",
+            "url": "https\/__admin\/mappings\/find-by-metadata",
+            "description": "Find stubs by matching on their metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "d573ad9610006914efeb1c5a439ae404",
+            "name": "Post Mappings Remove By Metadata",
+            "url": "https\/__admin\/mappings\/remove-by-metadata",
+            "description": "Remove stubs by matching on their metadata",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "2bcade9c97b74dea98990583a2b32bb2",
+            "name": "Post Mappings Reset",
+            "url": "https\/__admin\/mappings\/reset",
+            "description": "Reset stub mappings (restore to defaults defined back the backing store)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea41720497b742ed4fa9f1a9b1f7e936",
+            "name": "Post Mappings Save",
+            "url": "https\/__admin\/mappings\/save",
+            "description": "Save all persistent stub mappings to the backing store",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "47dec5b513521fd4efc53972e2319925",
+            "name": "Delete Mappings Stubmappingid",
+            "url": "https\/__admin\/mappings\/{stubMappingId}",
+            "description": "Delete mappings stubmappingid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "stubMappingId",
+                    "description": "The UUID of stub mapping",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "9ecd65f4ff781eb304e616ac40e33c6f",
+            "name": "Get Mappings Stubmappingid",
+            "url": "https\/__admin\/mappings\/{stubMappingId}",
+            "description": "Get mappings stubmappingid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "stubMappingId",
+                    "description": "The UUID of stub mapping",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "531d40eca594630f50a760c1b0ab4160",
+            "name": "Put Mappings Stubmappingid",
+            "url": "https\/__admin\/mappings\/{stubMappingId}",
+            "description": "Update an existing stub mapping",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "put",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "stubMappingId",
+                    "description": "The UUID of stub mapping",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "93c9a0196a4e04cfb0da6dce235d626d",
+            "name": "Post Near Misses Request",
+            "url": "https\/__admin\/near-misses\/request",
+            "description": "Find at most 3 near misses for closest stub mappings to the specified request",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "05a11259c38c8d2e7e0f7aa73253cf94",
+            "name": "Post Near Misses Request Pattern",
+            "url": "https\/__admin\/near-misses\/request-pattern",
+            "description": "Find at most 3 near misses for closest logged requests to the specified request pattern",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "3f9479c9a3141352595d90c3c38f0179",
+            "name": "Post Recordings Snapshot",
+            "url": "https\/__admin\/recordings\/snapshot",
+            "description": "Take a snapshot recording",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "ea38cb39d8d5e09c0532bcb68bb2204d",
+            "name": "Post Recordings Start",
+            "url": "https\/__admin\/recordings\/start",
+            "description": "Start recording stub mappings",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "885ec3d36aefbc3ca3e4c0003f0d42d4",
+            "name": "Get Recordings Status",
+            "url": "https\/__admin\/recordings\/status",
+            "description": "Get the recording status (started or stopped)",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "b1dab8c40b5a1cff02192daa34a091ce",
+            "name": "Post Recordings Stop",
+            "url": "https\/__admin\/recordings\/stop",
+            "description": "Stop recording stub mappings",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "f96432c9601b29c84afec172e9e8f9a6",
+            "name": "Delete Requests",
+            "url": "https\/__admin\/requests",
+            "description": "Delete all received requests",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "delete",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "1479698b55e4e79b76ba37942148e59c",
+            "name": "Get Requests",
+            "url": "https\/__admin\/requests",
+            "description": "Get received requests",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "limit",
+                    "description": "The maximum number of results to return",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "since",
+                    "description": "Only return logged requests after this date",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "bee91c7e7e16114720ca537d84112a8f",
+            "name": "Post Requests Count",
+            "url": "https\/__admin\/requests\/count",
+            "description": "Count requests logged in the journal matching the specified criteria",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "662c31c5b068e9061197268221ea8d45",
+            "name": "Post Requests Find",
+            "url": "https\/__admin\/requests\/find",
+            "description": "Retrieve details of requests logged in the journal matching the specified criteria",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "7fdbeb35ab84ed2ee757b5e172750a8a",
+            "name": "Post Requests Reset",
+            "url": "https\/__admin\/requests\/reset",
+            "description": "Empty the request journal",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "b0d49e8d9333e1dfdae87d17ce283d88",
+            "name": "Get Requests Unmatched",
+            "url": "https\/__admin\/requests\/unmatched",
+            "description": "Get details of logged requests that weren't matched by any stub mapping",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "de9600d90ccbcef660dcf2a6da69ae3b",
+            "name": "Get Requests Unmatched Near Misses",
+            "url": "https\/__admin\/requests\/unmatched\/near-misses",
+            "description": "Retrieve near-misses for all unmatched requests",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "07ad6c1241cf1a86a25ef52d6545c81c",
+            "name": "Get Requests Requestid",
+            "url": "https\/__admin\/requests\/{requestId}",
+            "description": "Get requests requestid.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "requestId",
+                    "description": "The UUID of the logged request",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "c3434e880975ba479dfa00cc1ef12a70",
+            "name": "Get Scenarios",
+            "url": "https\/__admin\/scenarios",
+            "description": "Get all scenarios",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "7b17b95e62cf0e50ec160731aca9eb18",
+            "name": "Post Scenarios Reset",
+            "url": "https\/__admin\/scenarios\/reset",
+            "description": "Reset the state of all scenarios",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "b23d65ceb8185d56e9e9bbf7f011c05b",
+            "name": "Post Settings",
+            "url": "https\/__admin\/settings",
+            "description": "Update global settings",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "body",
+                    "description": "",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        },
+        {
+            "id": "39ce8bc16a684bafea12e9294f26c02d",
+            "name": "Post Shutdown",
+            "url": "https\/__admin\/shutdown",
+            "description": "Shutdown the WireMock server",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "rawModeData": ""
+        }
+    ]
+}
