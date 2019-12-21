@@ -1,5 +1,5 @@
 {
-    "id": "3a4f7c8e0039fc0201a4d0776be573ae",
+    "id": "6122d8a3f4da30f5215698d5d7e6271e",
     "name": "WireMock",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "03a5af0b555cc127089ef6a96526fec5",
+            "id": "712d0fca2635ef408bc6cee16e96edaa",
             "name": "Delete Mappings",
             "url": "https\/__admin\/mappings",
             "description": "Delete all stub mappings",
@@ -29,11 +29,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "f4b2ed383a8c092187f8745232894f0a",
+            "id": "19ea840c59124ef3e6bfbbfac149b9ce",
             "name": "Get Mappings",
             "url": "https\/__admin\/mappings",
             "description": "Get all stub mappings",
@@ -67,11 +67,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "bd9a45057924be36e85b0897997cac24",
+            "id": "6567edeea5b0a003f8b74b2bee619a48",
             "name": "Post Mappings",
             "url": "https\/__admin\/mappings",
             "description": "Create a new stub mapping",
@@ -98,11 +98,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "d6f8189e56358d9859c8f140932a5549",
+            "id": "7832dad590c9fb642c9d590cb990dcd8",
             "name": "Post Mappings Find By Metadata",
             "url": "https\/__admin\/mappings\/find-by-metadata",
             "description": "Find stubs by matching on their metadata",
@@ -129,11 +129,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "d573ad9610006914efeb1c5a439ae404",
+            "id": "fa827a4cc1020dd6fd845f5b9091463c",
             "name": "Post Mappings Remove By Metadata",
             "url": "https\/__admin\/mappings\/remove-by-metadata",
             "description": "Remove stubs by matching on their metadata",
@@ -160,11 +160,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "2bcade9c97b74dea98990583a2b32bb2",
+            "id": "3429739f215f17ed5678daba56e483a1",
             "name": "Post Mappings Reset",
             "url": "https\/__admin\/mappings\/reset",
             "description": "Reset stub mappings (restore to defaults defined back the backing store)",
@@ -183,11 +183,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "ea41720497b742ed4fa9f1a9b1f7e936",
+            "id": "32c566ca4d3f89cceec20bda87707871",
             "name": "Post Mappings Save",
             "url": "https\/__admin\/mappings\/save",
             "description": "Save all persistent stub mappings to the backing store",
@@ -206,11 +206,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "47dec5b513521fd4efc53972e2319925",
+            "id": "2085fba86e75bdd34395e94815679c37",
             "name": "Delete Mappings Stubmappingid",
             "url": "https\/__admin\/mappings\/{stubMappingId}",
             "description": "Delete mappings stubmappingid.",
@@ -237,11 +237,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "9ecd65f4ff781eb304e616ac40e33c6f",
+            "id": "94e742ed3e7c128d58ea5593f9354315",
             "name": "Get Mappings Stubmappingid",
             "url": "https\/__admin\/mappings\/{stubMappingId}",
             "description": "Get mappings stubmappingid.",
@@ -268,11 +268,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "531d40eca594630f50a760c1b0ab4160",
+            "id": "6c479c1b3160eb67fc139918df3d694d",
             "name": "Put Mappings Stubmappingid",
             "url": "https\/__admin\/mappings\/{stubMappingId}",
             "description": "Update an existing stub mapping",
@@ -306,11 +306,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "93c9a0196a4e04cfb0da6dce235d626d",
+            "id": "f7641096ce3a28078b20647fe9db86d3",
             "name": "Post Near Misses Request",
             "url": "https\/__admin\/near-misses\/request",
             "description": "Find at most 3 near misses for closest stub mappings to the specified request",
@@ -337,11 +337,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "05a11259c38c8d2e7e0f7aa73253cf94",
+            "id": "6885d061a9c429ae3caba2ca048348a2",
             "name": "Post Near Misses Request Pattern",
             "url": "https\/__admin\/near-misses\/request-pattern",
             "description": "Find at most 3 near misses for closest logged requests to the specified request pattern",
@@ -368,11 +368,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "3f9479c9a3141352595d90c3c38f0179",
+            "id": "7ab81974fda68c6c9249ca04ba195c36",
             "name": "Post Recordings Snapshot",
             "url": "https\/__admin\/recordings\/snapshot",
             "description": "Take a snapshot recording",
@@ -399,11 +399,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "ea38cb39d8d5e09c0532bcb68bb2204d",
+            "id": "7a5c6988a3f62ada6893d0abe8a163b1",
             "name": "Post Recordings Start",
             "url": "https\/__admin\/recordings\/start",
             "description": "Start recording stub mappings",
@@ -430,11 +430,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "885ec3d36aefbc3ca3e4c0003f0d42d4",
+            "id": "90928fdd39eb820b060d56fa0028f809",
             "name": "Get Recordings Status",
             "url": "https\/__admin\/recordings\/status",
             "description": "Get the recording status (started or stopped)",
@@ -453,11 +453,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "b1dab8c40b5a1cff02192daa34a091ce",
+            "id": "1ded1bbcad2b894eeb4119d0e0450d21",
             "name": "Post Recordings Stop",
             "url": "https\/__admin\/recordings\/stop",
             "description": "Stop recording stub mappings",
@@ -476,11 +476,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "f96432c9601b29c84afec172e9e8f9a6",
+            "id": "599ffae7d6964095dfe50d730e246227",
             "name": "Delete Requests",
             "url": "https\/__admin\/requests",
             "description": "Delete all received requests",
@@ -499,11 +499,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "1479698b55e4e79b76ba37942148e59c",
+            "id": "e6134ec5f2f252d3eb71b424f928883a",
             "name": "Get Requests",
             "url": "https\/__admin\/requests",
             "description": "Get received requests",
@@ -537,11 +537,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "bee91c7e7e16114720ca537d84112a8f",
+            "id": "bbecce2ab399b52c22eb3d483abfc690",
             "name": "Post Requests Count",
             "url": "https\/__admin\/requests\/count",
             "description": "Count requests logged in the journal matching the specified criteria",
@@ -568,11 +568,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "662c31c5b068e9061197268221ea8d45",
+            "id": "5d162264479cb2f6f4451bb933bbb8c2",
             "name": "Post Requests Find",
             "url": "https\/__admin\/requests\/find",
             "description": "Retrieve details of requests logged in the journal matching the specified criteria",
@@ -599,11 +599,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "7fdbeb35ab84ed2ee757b5e172750a8a",
+            "id": "3d8f51590ff4820a652cb543a43d58c1",
             "name": "Post Requests Reset",
             "url": "https\/__admin\/requests\/reset",
             "description": "Empty the request journal",
@@ -622,11 +622,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "b0d49e8d9333e1dfdae87d17ce283d88",
+            "id": "ce9e3d9717c97d3b30d598591293af5a",
             "name": "Get Requests Unmatched",
             "url": "https\/__admin\/requests\/unmatched",
             "description": "Get details of logged requests that weren't matched by any stub mapping",
@@ -645,11 +645,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "de9600d90ccbcef660dcf2a6da69ae3b",
+            "id": "5e109f67dc2c8061730732b839eee0da",
             "name": "Get Requests Unmatched Near Misses",
             "url": "https\/__admin\/requests\/unmatched\/near-misses",
             "description": "Retrieve near-misses for all unmatched requests",
@@ -668,11 +668,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "07ad6c1241cf1a86a25ef52d6545c81c",
+            "id": "17712dfa580206b346858424d58a11a2",
             "name": "Get Requests Requestid",
             "url": "https\/__admin\/requests\/{requestId}",
             "description": "Get requests requestid.",
@@ -699,11 +699,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "c3434e880975ba479dfa00cc1ef12a70",
+            "id": "47f029f96eb117946e8d09cad2099efe",
             "name": "Get Scenarios",
             "url": "https\/__admin\/scenarios",
             "description": "Get all scenarios",
@@ -722,11 +722,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "7b17b95e62cf0e50ec160731aca9eb18",
+            "id": "138c84e7b0655b7e77a25569ef124ef0",
             "name": "Post Scenarios Reset",
             "url": "https\/__admin\/scenarios\/reset",
             "description": "Reset the state of all scenarios",
@@ -745,11 +745,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "b23d65ceb8185d56e9e9bbf7f011c05b",
+            "id": "633822db47a4693129c2512d1a2e03fe",
             "name": "Post Settings",
             "url": "https\/__admin\/settings",
             "description": "Update global settings",
@@ -776,11 +776,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         },
         {
-            "id": "39ce8bc16a684bafea12e9294f26c02d",
+            "id": "9b0a44c7b9f74536ccde831d8dbad178",
             "name": "Post Shutdown",
             "url": "https\/__admin\/shutdown",
             "description": "Shutdown the WireMock server",
@@ -799,7 +799,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "3a4f7c8e0039fc0201a4d0776be573ae",
+            "collectionId": "6122d8a3f4da30f5215698d5d7e6271e",
             "rawModeData": ""
         }
     ]
